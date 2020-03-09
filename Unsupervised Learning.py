@@ -10,7 +10,7 @@ x = [1, 5, 1.5, 8, 1, 9]
 y = [2, 8, 1.8, 8, 0.6, 11]
 
 # Show data in graph
-plt.scatter(x,y)
+plt.scatter(x, y)
 plt.show()
 
 # Our training data set. Putting our x and y into a numpy array
