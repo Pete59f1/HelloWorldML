@@ -17,5 +17,5 @@ clf.fit(xtrain, ytrain)
 
 # Testing model
 predictions = clf.predict(xtest)
-print(clf.predict(xtest))
+print(predictions)
 print(accuracy_score(ytest, predictions))
